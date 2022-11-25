@@ -3,13 +3,13 @@
     <style>
       .button {
         position: absolute;
-        left: 50px;
-        top: 10px;
+        top : 10px;
+        left : 50px;
         display: inline-block;
         border-radius: 4px;
-        background-color: rgb(165, 15, 15);
+        background-color:#04aef5;
         border: none;
-        color: yellow;
+        color: rgb(248, 248, 248);
         text-align: center;
         font-size: 28px;
         padding: 5px;
@@ -18,14 +18,12 @@
         cursor: pointer;
         margin: 0px;
       }
-      
       .button span {
         cursor: pointer;
         display: inline-block;
         position: relative;
         transition: 0.5s;
       }
-      
       .button span:after {
         content: '\00bb';
         position: absolute;
@@ -34,18 +32,16 @@
         right: -20px;
         transition: 0.5s;
       }
-      
       .button:hover span {
         padding-right: 25px;
       }
-      
       .button:hover span:after {
         opacity: 1;
         right: 0;
       }
       </style>
     <a href="https://atom-robotics-lab.github.io/wiki/markdown/selection_task/selection_task_2022_2023.html">
-      <button class="button" ><span>Selection Task 2022 Available Now !! </span></button>
+      <button class="button"><span><b>Selection Task 2022 Available Now !!</b></span></button>
     </a>
     <a class="navbar-brand" href="{{ .Site.BaseURL }}">
       <img src="{{ "images/logo.png" | absURL }}" alt="logo" />
